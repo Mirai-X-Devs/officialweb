@@ -1,8 +1,7 @@
 import brainwave from "./miraidev-logo.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./favicon.png";
-import brainwaveW￼
-hiteSymbol from "./brainwave-symbol-white.svg";
+import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
