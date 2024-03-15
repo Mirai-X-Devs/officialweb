@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[10rem]"
+      className="pt-[12rem] -mt-[12rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -71,7 +71,7 @@ const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
       <BottomLine />
     </Section>

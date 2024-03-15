@@ -1,7 +1,8 @@
 import brainwave from "./miraidev-logo.png";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import brainwaveSymbol from "./favicon.png";
+import brainwaveW￼
+hiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -27,6 +28,18 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
+
+//Tech Stack
+import chakraUi from "./stacklogo/chakra-ui.png";
+import firebase from "./stacklogo/firebase.png";
+import mongodb from "./stacklogo/mongodb.png";
+import nextjs from "./stacklogo/nextjs.png";
+import nodejs from "./stacklogo/nodejs.png";
+import postgresql from "./stacklogo/postgresql.png";
+import reactjs from "./stacklogo/reactjs.png";
+import redux from "./stacklogo/redux.png"; 
+import tailwindcss from "./stacklogo/tailwindcss.png"
+
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import framer from "./collaboration/framer.png";
@@ -69,11 +82,10 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
+//SOCIALS
 import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
+import github from "./socials/github.svg";
+import linkedin from "./socials/linkedin.svg"; 
 
 export {
   brainwave,
@@ -139,9 +151,16 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
-  facebook,
-  instagram,
-  telegram,
-  twitter,
+  discordBlack,  
+  chakraUi,
+  firebase,
+  mongodb,
+  nextjs,
+  nodejs,
+  postgresql,
+  reactjs,
+  redux,
+  tailwindcss,
+  github,
+  linkedin,
 };
