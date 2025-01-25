@@ -5,57 +5,55 @@ import {
   benefitIcon4,
   benefitImage2,
   chromecast,
-  disc02,
-  discord,
-  discordBlack,
-  facebook,
-  figma,
-  file02,
-  framer,
-  homeSmile,
-  instagram,
+  disc02, 
+  discordBlack, 
+  file02, 
+  homeSmile, 
   notification2,
   notification3,
-  notification4,
-  notion,
-  photoshop,
-  plusSquare,
-  protopie,
-  raindrop,
+  notification4, 
+  plusSquare, 
   recording01,
   recording03,
   roadmap1,
   roadmap2,
   roadmap3,
   roadmap4,
-  searchMd,
-  slack,
-  sliders04,
-  telegram,
-  twitter,
+  searchMd, 
+  sliders04, 
   yourlogo,
+  chakraUi,
+  firebase,
+  mongodb,
+  nextjs,
+  nodejs,
+  postgresql,
+  reactjs, 
+  tailwindcss,
+  github,
+  linkedin,
 } from "../assets";
 
 export const navigation = [
-  {
+  /* {
     id: "0",
-    title: "Features",
+    title: "Projects",
     url: "#features",
-  },
+  }, */
   {
-    id: "2",
+    id: "1",
     title: "Tech Stack",
     url: "#devlang",
   },
-  {
+  /* {
     id: "2",
-    title: "Pricing",
-    url: "#pricing",
+    title: "How to use",
+    url: "#how-to-use",
   },
   {
     id: "3",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "#pricing",
   },
   {
     id: "4",
@@ -69,16 +67,32 @@ export const navigation = [
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "6",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
-  },
+  }, */
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [
+  {
+    id:"1",
+    image:notification4,
+    url: "https://github.com/thecoderbutcher"
+  },
+  {
+    id:"2",
+    image:notification3,
+    url: "https://github.com/Web-Wise-Dynamics"
+  },
+  {
+    id:"3",
+    image:notification2,
+    url: "https://github.com/Mirai-X-Devs"
+  },
+];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
@@ -133,81 +147,82 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "We use the latest technologies on the market without leaving aside its robustness and maturation.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Modern and robust technology",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Latest generation cloud servers",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Databases according to needs",
   },
-];
+]; 
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
+    title: "Nodejs",
+    icon: nodejs,
+    width: 34,
+    height: 34,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Reactjs",
+    icon: reactjs,
     width: 34,
-    height: 36,
+    height: 34,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
+    title: "Nextjs",
+    icon: nextjs,
+    width: 34,
+    height: 34,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "ChakraUi",
+    icon: chakraUi,
     width: 34,
-    height: 35,
+    height: 34,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Tailwindcss",
+    icon: tailwindcss,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Mongodb",
+    icon: mongodb,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
+    title: "Firebase",
+    icon: firebase,
+    width: 34,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
+    title: "Postgresql",
+    icon: postgresql,
+    width: 34,
+    height: 34,
   },
+  
 ];
 
 export const pricing = [
@@ -301,33 +316,21 @@ export const benefits = [
 
 export const socials = [
   {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    title: "Github",
+    iconUrl: github,
+    url: "https://github.com/Mirai-X-Devs",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/company/w2d-ar",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
+    title: "Discord",
+    iconUrl: discordBlack,
     url: "#",
   },
 ];

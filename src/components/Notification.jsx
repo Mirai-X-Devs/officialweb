@@ -26,13 +26,15 @@ const Notification = ({ className, title }) => {
                 key={index}
                 className="flex w-8 h-8 border-2 border-n-12 rounded-full overflow-hidden"
               >
-                <img
-                  src={item}
-                  className="w-full"
-                  width={40}
-                  height={40}
-                  alt={item}
-                />
+                <a href={item.url} target="_blank">
+                  <img
+                    src={item.image}
+                    className="w-full"
+                    width={40}
+                    height={40}
+                    alt={item}
+                  />
+                </a>
               </li>
             ))}
           </ul>
